@@ -4,6 +4,7 @@ EColeta-NLW01
 
 ## Setup
 
+---
 ### Back-end
 
 - `npm install express`
@@ -22,6 +23,7 @@ On each project modification,it will restart the server
 
 - `npm install ts-node-dev -D`
 
+---
 ### Front-end
 
 - `npx create-react-app web --teplate=typescript`
