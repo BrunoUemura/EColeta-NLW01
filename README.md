@@ -5,6 +5,7 @@ EColeta-NLW01
 ## Setup
 
 ---
+
 ### Back-end
 
 - `npm install express`
@@ -23,7 +24,13 @@ On each project modification,it will restart the server
 
 - `npm install ts-node-dev -D`
 
+To work with database
+
+- `npm install knex`
+- `npm install sqlite3`
+
 ---
+
 ### Front-end
 
 - `npx create-react-app web --teplate=typescript`
