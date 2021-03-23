@@ -1,2 +1,15 @@
-export async function up() {}
-export async function down() {}
+import Knex from "knex";
+
+export async function up(knex: Knex) {
+  // Create the table
+  return knex.schema.createTable("items", (table) => {
+    table.increments("id").primary();
+    table.string("image").notNullable();
+    table.string("titile").notNullable();
+  });
+}
+
+export async function down(knex: Knex) {
+  // Undo (Delete the table)
+  return knex.schema.dropTable("items");
+}

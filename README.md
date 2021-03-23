@@ -26,8 +26,9 @@ On each project modification,it will restart the server
 
 To work with database
 
-- `npm install knex`
+- `npm install knex@0.21.17`
 - `npm install sqlite3`
+- `npx knex migrate:latest --knexfile knexfile.ts migrate:latest`
 
 ---
 
