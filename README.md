@@ -9,12 +9,14 @@ EColeta-NLW01
 ### Back-end
 
 - `npm install express`
+- `npm insatll cors`
 
 Dev Dependencies
 
 - `npm install typescript -D`
 - `npm install @types/express -D`
 - `npm install ts-node -D`
+- `npm install @types/cors -D`
 
 TypeScript config file
 
