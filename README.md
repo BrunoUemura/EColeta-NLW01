@@ -4,8 +4,6 @@ EColeta-NLW01
 
 ## Setup
 
----
-
 ### Back-end
 
 - `npm install express`
